@@ -1,0 +1,47 @@
+.Box{
+  background:linear-gradient(100deg,rgba(250,214,195,0.8) 30%,#4E6B9F 120%)
+}
+.Book img {
+  
+    filter: grayscale();
+    border-radius: 50%;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.4s filter ease;
+  }
+  .Book:hover img {
+    filter: none;
+  }
+  
+  .Book .underline {
+    text-decoration: none;
+    border: 4px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 36px;
+
+    color: #4E6B9F;
+    letter-spacing: 0.2em;
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .underline::after {
+    width: 0%;
+    height: 4px;
+    display: block;
+    background-color: #4E6B9F;
+    content: " ";
+    position: absolute;
+    top: 34px;
+    left: 50%;
+    transition: left 0.4s cubic-bezier(0.215, 0.61, 0.355, 1),
+      width 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  
+  .Book:hover .underline::after {
+    width: 100%;
+    top: 34px;
+    left: 0;
+  }
