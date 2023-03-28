@@ -1,0 +1,1874 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Songül",
+      "lastName": "Cengiz",
+      "email": "snglcngz@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "firstName": "Gül",
+      "lastName": "Giz",
+      "email": "gulce_giz@hotmail.com",
+      "password": "345",
+      "role": "user"
+    }
+  ],
+  "roleAccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveAdd": true,
+      "haveEdit": true,
+      "haveDelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "supplier",
+      "haveAdd": true,
+      "haveEdit": true,
+      "haveDelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveAdd": false,
+      "haveEdit": false,
+      "haveDelete": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "customerName": "Angela",
+      "email": "angelahi!@gmail.com"
+    },
+    {
+      "id": 2,
+      "customerName": "Sara",
+      "email": "sara@gmail.com"
+    },
+    {
+      "id": 3,
+      "customerName": "David2",
+      "email": "david@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "authorId": 1,
+      "publisherId": 3,
+      "productName": "Lavinia: Aşk Şiirleri",
+      "authorName": "Özdemir Asaf",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "48 - 6 oz jars",
+      "unitPrice": 90,
+      "unitsInStock": 539,
+      "imageUrl": "https://images.unsplash.com/photo-1555116505-38ab61800975?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGxpYnJhcnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "paperType": "Karton Kapak",
+      "isTranslator": false
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "authorId": 2,
+      "publisherId": 2,
+      "productName": "Şeker Portakalı",
+      "authorName": "José Mauro de Vasconcelos",
+      "publisherName": "Can Yayınları",
+      "quantityPerUnit": "24 - 12 oz bottles",
+      "unitPrice": 21,
+      "unitsInStock": 17,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/01/30/10/03/book-2020460__340.jpg",
+      "paperType": "Karton Kapak"
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "authorId": 3,
+      "publisherId": 3,
+      "productName": "Bir İdam Mahkumunun Son Günü",
+      "authorName": "Victor Hugo",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "48 - 6 oz jars",
+      "unitPrice": 222,
+      "unitsInStock": 53,
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/09/07/17/26/vintage-pocket-watch-7439236__340.jpg",
+      "paperType": "Karton Kapak"
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "authorId": 4,
+      "publisherId": 4,
+      "productName": "Soneler",
+      "authorName": "William Shakespare",
+      "publisherName": "Karbon Kitaplar",
+      "quantityPerUnit": "36 boxes",
+      "unitPrice": 21,
+      "unitsInStock": 0,
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/08/24/15/42/library-7408106__340.jpg",
+      "paperType": "Karton Kapak"
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "authorId": 5,
+      "publisherId": 5,
+      "productName": "Çile",
+      "authorName": "Necip Fazıl Kısakürek",
+      "publisherName": "Türkiye İş Bankası Yayınları",
+      "quantityPerUnit": "12 - 8 oz jars",
+      "unitPrice": 25,
+      "unitsInStock": 120,
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/07/08/10/37/books-7309019__340.png",
+      "paperType": "Karton Kapak"
+    },
+    {
+      "id": 7,
+      "categoryId": 7,
+      "authorId": 6,
+      "publisherId": 6,
+      "productName": "Malcom X",
+      "authorName": "Alex Haley",
+      "publisherName": "",
+      "quantityPerUnit": "12 - 1 lb pkgs.",
+      "unitPrice": 30,
+      "unitsInStock": 15,
+      "imageUrl": "https://media.istockphoto.com/id/1227235401/photo/stack-of-books-on-table-in-the-room.jpg?s=612x612&w=0&k=20&c=ZsNSEUp655fXFGpCmV-wsGtXGvNuz3htzQW6SwUFhok=",
+      "paperType": "Karton Kapak"
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "authorId": 7,
+      "publisherId": 7,
+      "productName": "Yedi Güzel Adam",
+      "authorName": "Cahit Zarifoğlu",
+      "publisherName": "",
+      "quantityPerUnit": "12 - 12 oz jars",
+      "unitPrice": 40,
+      "unitsInStock": 100,
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/10/04/14/22/reading-3723751__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 9,
+      "categoryId": 6,
+      "authorId": 8,
+      "publisherId": 8,
+      "productName": "İdeal Devlet",
+      "authorName": "Farabi",
+      "publisherName": "",
+      "quantityPerUnit": "18 - 500 g pkgs.",
+      "unitPrice": 97,
+      "unitsInStock": 29,
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/12/05/19/man-7713295__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 10,
+      "categoryId": 8,
+      "authorId": 10,
+      "publisherId": 9,
+      "productName": "Beynimizin Parmak İzleri",
+      "authorName": "Lisa Feldman Barrett",
+      "publisherName": "",
+      "quantityPerUnit": "12 - 200 ml jars",
+      "unitPrice": 31,
+      "unitsInStock": 31,
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/01/22/16/54/book-6957870__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "authorId": 9,
+      "publisherId": 10,
+      "productName": "İnsan Olmak",
+      "authorName": "Engin Geçtan",
+      "publisherName": "",
+      "quantityPerUnit": "1 kg pkg.",
+      "unitPrice": 21,
+      "unitsInStock": 22,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/07/22/bible-1868070__340.jpg"
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "authorId": 35,
+      "publisherId": 11,
+      "productName": "Akıllı Yatırımcı",
+      "authorName": "Benjamin Graham",
+      "publisherName": "",
+      "quantityPerUnit": "10 - 500 g pkgs.",
+      "unitPrice": 38,
+      "unitsInStock": 86,
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/06/07/16/50/woman-6318447__340.jpg",
+      "paperType": "Karton Kapak"
+    },
+    {
+      "id": 13,
+      "categoryId": 8,
+      "authorId": 36,
+      "publisherId": 12,
+      "productName": "Blokzincir Devrimi",
+      "authorName": "Don Tapscott",
+      "publisherName": "",
+      "quantityPerUnit": "2 kg box",
+      "unitPrice": 6,
+      "unitsInStock": 24,
+      "imageUrl": "https://media.istockphoto.com/id/1308595699/photo/book-of-the-universe-opened-magic-book-with-planets-and-galaxies-elements-of-this-image.jpg?b=1&s=170667a&w=0&k=20&c=0cXMJOTsESNa1R_82WcSTKgqGxk2UUw6j0lNr-NELr4=",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 14,
+      "categoryId": 7,
+      "authorId": 37,
+      "publisherId": 1,
+      "productName": "Savaş Sanatı",
+      "authorName": "Sun Tzu",
+      "publisherName": "Yapı Kredi Yayınları",
+      "quantityPerUnit": "40 - 100 g pkgs.",
+      "unitPrice": 23.25,
+      "unitsInStock": 35,
+      "imageUrl": "https://cdn.pixabay.com/photo/2022/01/11/18/46/rose-6931259__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 15,
+      "categoryId": 2,
+      "authorId": 39,
+      "publisherId": 2,
+      "productName": "Kendi Gök Kubbemiz",
+      "authorName": "Yahya Kemal Beyatlı",
+      "publisherName": "Can Yayınları",
+      "quantityPerUnit": "24 - 250 ml bottles",
+      "unitPrice": 15.5,
+      "unitsInStock": 39,
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/12/12/09/41/woman-6864640__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "authorId": 5,
+      "publisherId": 3,
+      "productName": "Bir Adam Yaratmak",
+      "authorName": "Necip Fazıl Kısakürek",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "32 - 500 g boxes",
+      "unitPrice": 17.45,
+      "unitsInStock": 29,
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/09/18/21/12/person-5582976__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 17,
+      "categoryId": 6,
+      "authorId": 40,
+      "publisherId": 4,
+      "productName": "Ütopya",
+      "authorName": "Thomas More",
+      "publisherName": "Karbon Kitaplar",
+      "quantityPerUnit": "20 - 1 kg tins",
+      "unitPrice": 39,
+      "unitsInStock": 0,
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/05/01/16/42/palacio-nacional-de-mafra-5118010__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 18,
+      "categoryId": 8,
+      "authorId": 32,
+      "publisherId": 5,
+      "productName": "Büyük Tasarım",
+      "authorName": "Stephen Hawking",
+      "publisherName": "Türkiye İş Bankası Yayınları",
+      "quantityPerUnit": "16 kg pkg.",
+      "unitPrice": 62.5,
+      "unitsInStock": 42,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/05/04/14/22/woman-4178187__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 19,
+      "categoryId": 3,
+      "authorId": 33,
+      "publisherId": 6,
+      "productName": "Cimri",
+      "authorName": "Moliere",
+      "publisherName": "",
+      "quantityPerUnit": "10 boxes x 12 pieces",
+      "unitPrice": 9.2,
+      "unitsInStock": 25,
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/05/25/17/54/library-5219747__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 20,
+      "categoryId": 3,
+      "authorId": 4,
+      "publisherId": 7,
+      "productName": "Hamlet",
+      "authorName": "William Shakespare",
+      "publisherName": "",
+      "quantityPerUnit": "30 gift boxes",
+      "unitPrice": 81,
+      "unitsInStock": 40,
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/01/23/10/38/book-3101151__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 21,
+      "categoryId": 3,
+      "authorId": 4,
+      "publisherId": 8,
+      "productName": "Venedik Taciri",
+      "authorName": "William Shakespare",
+      "publisherName": "",
+      "quantityPerUnit": "24 pkgs. x 4 pieces",
+      "unitPrice": 10,
+      "unitsInStock": 3,
+      "imageUrl": "https://media.istockphoto.com/id/1214281726/vector/book-festival-concept-vector-flat-style-design-illustration.jpg?s=612x612&w=0&k=20&c=3u-LFpwpSebeVeXILbYbNWzqUW8vjkRDIQZm9nkljqA=",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 22,
+      "categoryId": 5,
+      "authorId": 54,
+      "publisherId": 9,
+      "productName": "Sırça Köşk",
+      "authorName": "Sabahattin Ali",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 500 g pkgs.",
+      "unitPrice": 21,
+      "unitsInStock": 104,
+      "imageUrl": "https://media.istockphoto.com/id/1185475355/vector/hands-pass-cute-smiling-happy-book.jpg?s=612x612&w=0&k=20&c=kdKlPzC4Etooy5IqE0WT8R_U_Tl_LeQ2X-b-ovgS3NU="
+    },
+    {
+      "id": 23,
+      "categoryId": 5,
+      "authorId": 34,
+      "publisherId": 10,
+      "productName": "Forsa",
+      "authorName": "Ömer Seyfettin",
+      "publisherName": "",
+      "quantityPerUnit": "12 - 250 g pkgs.",
+      "unitPrice": 9,
+      "unitsInStock": 61,
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/01/21/15/54/books-5937716__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 24,
+      "categoryId": 1,
+      "authorId": 22,
+      "publisherId": 11,
+      "productName": "Suç Ve Ceza",
+      "authorName": "Fyodor Dostoyevski",
+      "publisherName": "",
+      "quantityPerUnit": "12 - 355 ml cans",
+      "unitPrice": 4.5,
+      "unitsInStock": 20,
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/09/29/10/42/library-5612441__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 25,
+      "categoryId": 3,
+      "authorId": 4,
+      "publisherId": 12,
+      "productName": "Macbeth",
+      "authorName": "William Shakespare",
+      "publisherName": "",
+      "quantityPerUnit": "20 - 450 g glasses",
+      "unitPrice": 14,
+      "unitsInStock": 76,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/08/07/19/07/books-2606859__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 26,
+      "categoryId": 3,
+      "authorId": 4,
+      "publisherId": 1,
+      "productName": "Othello",
+      "authorName": "William Shakespare",
+      "publisherName": "Yapı Kredi Yayınları",
+      "quantityPerUnit": "100 - 250 g bags",
+      "unitPrice": 31.23,
+      "unitsInStock": 15,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/08/07/03/22/books-2599241__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 27,
+      "categoryId": 3,
+      "authorId": 33,
+      "publisherId": 2,
+      "productName": "Kibarlık Budalası",
+      "authorName": "Moliere",
+      "publisherName": "Can Yayınları",
+      "quantityPerUnit": "100 - 100 g pieces",
+      "unitPrice": 43.9,
+      "unitsInStock": 49,
+      "imageUrl": "https://cdn.pixabay.com/photo/2020/10/09/20/09/library-5641389__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 28,
+      "categoryId": 7,
+      "authorId": 23,
+      "publisherId": 3,
+      "productName": "Nutuk",
+      "authorName": "Mustafa Kemal Atatürk",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "25 - 825 g cans",
+      "unitPrice": 45.6,
+      "unitsInStock": 26,
+      "imageUrl": "https://media.istockphoto.com/id/873507500/photo/image-of-open-antique-book-on-wooden-table-with-glitter-overlay.jpg?s=612x612&w=0&k=20&c=clB-tJl5j44IqVLlCELHVP6G-kJjeNt_nNmQi48aEKo=",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 29,
+      "categoryId": 6,
+      "authorId": 24,
+      "publisherId": 4,
+      "productName": "Her Şeye Sahipsiniz Kendiniz Hariç",
+      "authorName": "Osho",
+      "publisherName": "Karbon Kitaplar",
+      "quantityPerUnit": "50 bags x 30 sausgs.",
+      "unitPrice": 123.79,
+      "unitsInStock": 0,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/12/18/13/56/glasses-4704055__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 30,
+      "categoryId": 8,
+      "authorId": 19,
+      "publisherId": 5,
+      "productName": "Incognito",
+      "authorName": "David Eagleman",
+      "publisherName": "Türkiye İş Bankası Yayınları",
+      "quantityPerUnit": "10 - 200 g glasses",
+      "unitPrice": 25.89,
+      "unitsInStock": 10,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/11/19/22/24/watch-4638673__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 31,
+      "categoryId": 4,
+      "authorId": 20,
+      "publisherId": 6,
+      "productName": "Kadın Beyni-Erkek Beyni",
+      "authorName": "Serkan Karaismailoğlu",
+      "publisherName": "",
+      "quantityPerUnit": "12 - 100 g pkgs",
+      "unitPrice": 12.5,
+      "unitsInStock": 0,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/01/17/23/14/work-3938876__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 32,
+      "categoryId": 4,
+      "authorId": 21,
+      "publisherId": 7,
+      "productName": "Duygusal Zeka",
+      "authorName": "Muhammed Bozdağ",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 200 g pkgs.",
+      "unitPrice": 32,
+      "unitsInStock": 9,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/12/17/21/44/drink-3025022__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 33,
+      "categoryId": 4,
+      "authorId": 28,
+      "publisherId": 8,
+      "productName": "Beni Ödülle Cezalandırma",
+      "authorName": "Özgür Polat",
+      "publisherName": "",
+      "quantityPerUnit": "500 g",
+      "unitPrice": 2.5,
+      "unitsInStock": 112,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/09/30/14/29/books-4515917__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 34,
+      "categoryId": 1,
+      "authorId": 29,
+      "publisherId": 9,
+      "productName": "Simyacı",
+      "authorName": "Paulo Coelho",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 12 oz bottles",
+      "unitPrice": 14,
+      "unitsInStock": 111,
+      "imageUrl": "https://media.istockphoto.com/id/1178677764/vector/paper-cut-art-of-open-book-with-learning-education-and-explore-concept.jpg?s=612x612&w=0&k=20&c=BMX01C-gIgp1fnulRUnFzixxmJPplsVmNbP2ChhDORo=",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 35,
+      "categoryId": 1,
+      "authorId": 30,
+      "publisherId": 10,
+      "productName": "Serenad",
+      "authorName": "Zülfü Livaneli",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 12 oz bottles",
+      "unitPrice": 18,
+      "unitsInStock": 20,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/06/03/22/09/books-4250085__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 36,
+      "categoryId": 8,
+      "authorId": 19,
+      "publisherId": 11,
+      "productName": "Yaratıcı Tür",
+      "authorName": "David Eagleman",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 250 g  jars",
+      "unitPrice": 19,
+      "unitsInStock": 112,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/07/12/18/59/woman-4333420__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 37,
+      "categoryId": 8,
+      "authorId": 19,
+      "publisherId": 12,
+      "productName": "Canlı Devre",
+      "authorName": "David Eagleman",
+      "publisherName": "",
+      "quantityPerUnit": "12 - 500 g pkgs.",
+      "unitPrice": 26,
+      "unitsInStock": 11,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/08/16/10/48/library-419254__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 38,
+      "categoryId": 1,
+      "authorId": 31,
+      "publisherId": 1,
+      "productName": "Semerkant",
+      "authorName": "Amin Maalouf",
+      "publisherName": "Yapı Kredi Yayınları",
+      "quantityPerUnit": "12 - 75 cl bottles",
+      "unitPrice": 263.5,
+      "unitsInStock": 17,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/06/29/05/42/books-4305459__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 39,
+      "categoryId": 1,
+      "authorId": 25,
+      "publisherId": 2,
+      "productName": "Beyaz Gemi",
+      "authorName": "Cengiz Aytmatov",
+      "publisherName": "Can Yayınları",
+      "quantityPerUnit": "750 cc per bottle",
+      "unitPrice": 18,
+      "unitsInStock": 69,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/12/05/08/25/fantasy-1077863__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 40,
+      "categoryId": 8,
+      "authorId": 20,
+      "publisherId": 3,
+      "productName": "Dura Mater",
+      "authorName": "Serkan Karaismailoğlu",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "24 - 4 oz tins",
+      "unitPrice": 18.4,
+      "unitsInStock": 123,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/05/14/21/50/storytelling-4203628__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 41,
+      "categoryId": 8,
+      "authorId": 19,
+      "publisherId": 4,
+      "productName": "Beyin",
+      "authorName": "David Eagleman",
+      "publisherName": "Karbon Kitaplar",
+      "quantityPerUnit": "12 - 12 oz cans",
+      "unitPrice": 9.65,
+      "unitsInStock": 85,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/01/30/10/03/book-2020460__340.jpg",
+      "paperType": "Amerikan Bristol Kapak"
+    },
+    {
+      "id": 42,
+      "categoryId": 5,
+      "authorId": 34,
+      "publisherId": 5,
+      "productName": "Yalnız Efe",
+      "authorName": "Ömer Seyfettin",
+      "publisherName": "Türkiye İş Bankası Yayınları",
+      "quantityPerUnit": "32 - 1 kg pkgs.",
+      "unitPrice": 14,
+      "unitsInStock": 26,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/05/31/10/58/cup-791072__340.jpg",
+      "paperType": "Amerikan Bristol Kapak"
+    },
+    {
+      "id": 43,
+      "categoryId": 1,
+      "authorId": 26,
+      "publisherId": 6,
+      "productName": "Hacı Murat",
+      "authorName": "Lev Tolstoy",
+      "publisherName": "",
+      "quantityPerUnit": "16 - 500 g tins",
+      "unitPrice": 46,
+      "unitsInStock": 17,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 44,
+      "categoryId": 2,
+      "authorId": 27,
+      "publisherId": 7,
+      "productName": "Hüsn-ü Aşk",
+      "authorName": "Şeyh Galip",
+      "publisherName": "",
+      "quantityPerUnit": "20 - 2 kg bags",
+      "unitPrice": 19.45,
+      "unitsInStock": 27,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/07/15/22/07/library-2507902__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 45,
+      "categoryId": 8,
+      "authorId": 14,
+      "publisherId": 8,
+      "productName": "İzafiyet Teorisi",
+      "authorName": "Albert Einstein",
+      "publisherName": "",
+      "quantityPerUnit": "1k pkg.",
+      "unitPrice": 9.5,
+      "unitsInStock": 5,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/08/08/21/03/bookshelf-413705__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 46,
+      "categoryId": 8,
+      "authorId": 32,
+      "publisherId": 9,
+      "productName": "Kara Delikler",
+      "authorName": "Stephen Hawking",
+      "publisherName": "",
+      "quantityPerUnit": "4 - 450 g glasses",
+      "unitPrice": 12,
+      "unitsInStock": 95,
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/05/22/14/00/girl-3421489__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 47,
+      "categoryId": 3,
+      "authorId": 4,
+      "publisherId": 10,
+      "productName": "Kral Lear",
+      "authorName": "William Shakespare",
+      "publisherName": "",
+      "quantityPerUnit": "10 - 4 oz boxes",
+      "unitPrice": 9.5,
+      "unitsInStock": 36,
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 48,
+      "categoryId": 3,
+      "authorId": 33,
+      "publisherId": 11,
+      "productName": "Cimri",
+      "authorName": "Moliere",
+      "publisherName": "",
+      "quantityPerUnit": "10 pkgs.",
+      "unitPrice": 12.75,
+      "unitsInStock": 15,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/06/10/16/22/coffee-2390136__340.jpg",
+      "paperType": "Kuşe Kapak"
+    },
+    {
+      "id": 49,
+      "categoryId": 3,
+      "authorId": 15,
+      "publisherId": 12,
+      "productName": "Vişne Bahçesi",
+      "authorName": "Anton Çehov",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 50 g pkgs.",
+      "unitPrice": 20,
+      "unitsInStock": 10,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/10/26/10/05/book-1771073__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 50,
+      "categoryId": 3,
+      "authorId": 16,
+      "publisherId": 1,
+      "productName": "Gülnihal",
+      "authorName": "Namık Kemal",
+      "publisherName": "Yapı Kredi Yayınları",
+      "quantityPerUnit": "12 - 100 g bars",
+      "unitPrice": 16.25,
+      "unitsInStock": 65,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/06/01/06/26/open-book-1428428__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 51,
+      "categoryId": 7,
+      "authorId": 17,
+      "publisherId": 2,
+      "productName": "Türkiye'nin Yakın Tarihi",
+      "authorName": "İlber Ortaylı",
+      "publisherName": "Can Yayınları",
+      "quantityPerUnit": "50 - 300 g pkgs.",
+      "unitPrice": 53,
+      "unitsInStock": 20,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/08/24/16/20/books-1617327__340.jpg",
+      "paperType": "Amerikan Bristol Kapak"
+    },
+    {
+      "id": 52,
+      "categoryId": 5,
+      "authorId": 18,
+      "publisherId": 3,
+      "productName": "Son Kuşlar",
+      "authorName": "Sait Faik Abasıyanık",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "16 - 2 kg boxes",
+      "unitPrice": 7,
+      "unitsInStock": 38,
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/05/13/14/52/boys-3396713__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 53,
+      "categoryId": 6,
+      "authorId": 37,
+      "publisherId": 4,
+      "productName": "Savaş Sanatı",
+      "authorName": "Sun Tzu",
+      "publisherName": "Karbon Kitaplar",
+      "quantityPerUnit": "48 pieces",
+      "unitPrice": 32.8,
+      "unitsInStock": 0,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 54,
+      "categoryId": 6,
+      "authorId": 11,
+      "publisherId": 5,
+      "productName": "Mutlu Olma Sanatı",
+      "authorName": "Bertrand Russell",
+      "publisherName": "Türkiye İş Bankası Yayınları",
+      "quantityPerUnit": "16 pies",
+      "unitPrice": 7.45,
+      "unitsInStock": 21,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 55,
+      "categoryId": 6,
+      "authorId": 12,
+      "publisherId": 6,
+      "productName": "Sokrates'in Savunması",
+      "authorName": "Platon",
+      "publisherName": "",
+      "quantityPerUnit": "24 boxes x 2 pies",
+      "unitPrice": 24,
+      "unitsInStock": 115,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/03/17/10/29/coffee-2151200__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 56,
+      "categoryId": 5,
+      "authorId": 13,
+      "publisherId": 7,
+      "productName": "Oliver Twist",
+      "authorName": "Charles Dickens",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 250 g pkgs.",
+      "unitPrice": 38,
+      "unitsInStock": 21,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/03/17/10/29/coffee-2151200__340.jpg",
+      "paperType": "Amerikan Bristol Kapak"
+    },
+    {
+      "id": 57,
+      "categoryId": 5,
+      "authorId": 18,
+      "publisherId": 8,
+      "productName": "Lüzumsuz Adam",
+      "authorName": "Sait Faik Abasıyanık",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 250 g pkgs.",
+      "unitPrice": 19.5,
+      "unitsInStock": 36,
+      "imageUrl": "https://cdn.pixabay.com/photo/2018/01/18/20/43/literature-3091212__340.jpg",
+      "paperType": "Amerikan Bristol Kapak"
+    },
+    {
+      "id": 58,
+      "categoryId": 8,
+      "authorId": 53,
+      "publisherId": 9,
+      "productName": "Kozmos",
+      "authorName": "Carl Sagan",
+      "publisherName": "",
+      "quantityPerUnit": "24 pieces",
+      "unitPrice": 13.25,
+      "unitsInStock": 62,
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/07/02/09/03/books-2463779__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 59,
+      "categoryId": 4,
+      "authorId": 51,
+      "publisherId": 10,
+      "productName": "Fark Et Düşün ve Hisset",
+      "authorName": "Hakan Türkçapar",
+      "publisherName": "",
+      "quantityPerUnit": "5 kg pkg.",
+      "unitPrice": 55,
+      "unitsInStock": 79,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/03/11/13/36/gerbera-1250287__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 60,
+      "categoryId": 4,
+      "authorId": 9,
+      "publisherId": 11,
+      "productName": "Hayat",
+      "quantityPerUnit": "15 - 300 g rounds",
+      "authorName": "Engin Geçtan",
+      "publisherName": "",
+      "unitPrice": 34,
+      "unitsInStock": 19,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/10/21/10/32/books-1757734__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 61,
+      "categoryId": 2,
+      "authorId": 52,
+      "publisherId": 12,
+      "productName": "Rubailer",
+      "authorName": "Ömer Hayyam",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 500 ml bottles",
+      "unitPrice": 28.5,
+      "unitsInStock": 113,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/07/17/22/42/library-849797__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 62,
+      "categoryId": 3,
+      "authorId": 16,
+      "publisherId": 1,
+      "productName": "Akif Bey",
+      "authorName": "Namık Kemal",
+      "publisherName": "",
+      "quantityPerUnit": "48 pies",
+      "unitPrice": 49.3,
+      "unitsInStock": 17,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/13/46/book-1869969__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 63,
+      "categoryId": 2,
+      "authorId": 49,
+      "publisherId": 2,
+      "productName": "Memleketimden İnsan Manzaraları",
+      "authorName": "Nazım Hikmet",
+      "publisherName": "Can Yayınları",
+      "quantityPerUnit": "15 - 625 g jars",
+      "unitPrice": 43.9,
+      "unitsInStock": 24,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/02/26/library-1866844__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 64,
+      "categoryId": 5,
+      "authorId": 18,
+      "publisherId": 3,
+      "productName": "Semaver",
+      "authorName": "Sait Faik Abasıyanık",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "20 bags x 4 pieces",
+      "unitPrice": 33.25,
+      "unitsInStock": 22,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/01/19/01/42/library-1147815__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 65,
+      "categoryId": 2,
+      "authorId": 50,
+      "publisherId": 4,
+      "productName": "Safahat",
+      "authorName": "Mehmet Akif Ersoy",
+      "publisherName": "Karbon Kitaplar",
+      "quantityPerUnit": "32 - 8 oz bottles",
+      "unitPrice": 21.05,
+      "unitsInStock": 76,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/07/22/bible-1868070__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 66,
+      "categoryId": 2,
+      "authorId": 55,
+      "publisherId": 5,
+      "productName": "Gölgeler",
+      "authorName": "Ahmet Muhip Dıranas",
+      "publisherName": "Türkiye İş Bankası Yayınları",
+      "quantityPerUnit": "24 - 8 oz jars",
+      "unitPrice": 17,
+      "unitsInStock": 4,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/14/03/16/book-1822474__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 67,
+      "categoryId": 1,
+      "authorId": 45,
+      "publisherId": 6,
+      "productName": "Bülbülün Kırk Şarkısı",
+      "authorName": "İskender Pala",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 12 oz bottles",
+      "unitPrice": 14,
+      "unitsInStock": 52,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/12/04/09/13/leaves-1076307__340.jpg",
+      "paperType": "Amerikan Bristol Kapak"
+    },
+    {
+      "id": 68,
+      "categoryId": 3,
+      "authorId": 33,
+      "publisherId": 7,
+      "productName": "Zarafet Budalaları",
+      "authorName": "Moliere",
+      "publisherName": "",
+      "quantityPerUnit": "10 boxes x 8 pieces",
+      "unitPrice": 12.5,
+      "unitsInStock": 6,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/22/19/25/adult-1850177__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 69,
+      "categoryId": 4,
+      "authorId": 47,
+      "publisherId": 8,
+      "productName": "Duyguların Psikolojisi",
+      "authorName": "Nevzat Tarhan",
+      "publisherName": "",
+      "quantityPerUnit": "10 kg pkg.",
+      "unitPrice": 36,
+      "unitsInStock": 26,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/05/09/15/42/book-759873__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 70,
+      "categoryId": 1,
+      "authorId": 48,
+      "publisherId": 9,
+      "productName": "Beyaz Diş",
+      "authorName": "Jack London",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 355 ml bottles",
+      "unitPrice": 15,
+      "unitsInStock": 15,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/29/09/41/bag-1868758__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 71,
+      "categoryId": 4,
+      "authorId": 21,
+      "publisherId": 10,
+      "productName": "Ruhsal Zeka",
+      "authorName": "Muhammed Bozdağ",
+      "publisherName": "",
+      "quantityPerUnit": "10 - 500 g pkgs.",
+      "unitPrice": 21.5,
+      "unitsInStock": 26,
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/20/08/58/books-1842261__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 72,
+      "categoryId": 4,
+      "authorId": 41,
+      "publisherId": 11,
+      "productName": "Ted Gibi Konuş",
+      "authorName": "Carmine Gallo",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 200 g pkgs.",
+      "unitPrice": 34.8,
+      "unitsInStock": 14,
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/10/14/20/14/library-488690__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 73,
+      "categoryId": 8,
+      "authorId": 42,
+      "publisherId": 12,
+      "productName": "İnsan Vücuduna Seyahat",
+      "authorName": "Gavin Francis",
+      "publisherName": "",
+      "quantityPerUnit": "24 - 150 g jars",
+      "unitPrice": 15,
+      "unitsInStock": 101,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 74,
+      "categoryId": 7,
+      "authorId": 43,
+      "publisherId": 1,
+      "productName": "Kavgam",
+      "authorName": "Adolf Hitler",
+      "publisherName": "Yapı Kredi Yayınları",
+      "quantityPerUnit": "5 kg pkg.",
+      "unitPrice": 10,
+      "unitsInStock": 4,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/06/02/12/59/book-794978__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 75,
+      "categoryId": 1,
+      "authorId": 44,
+      "publisherId": 2,
+      "productName": "Nar Ağacı",
+      "authorName": "Nazan Bekiroğlu",
+      "publisherName": "Can Yayınları",
+      "quantityPerUnit": "24 - 0.5 l bottles",
+      "unitPrice": 7.75,
+      "unitsInStock": 125,
+      "imageUrl": "https://cdn.pixabay.com/photo/2015/11/19/21/11/book-1052014__340.jpg",
+      "paperType": "İnce Kapak"
+    },
+    {
+      "id": 76,
+      "categoryId": 1,
+      "authorId": 25,
+      "publisherId": 3,
+      "productName": "Gün Olur Asra Bedel",
+      "authorName": "Cengiz Aytmatov",
+      "publisherName": "Remzi Kitapevi",
+      "quantityPerUnit": "500 m",
+      "unitPrice": 18,
+      "unitsInStock": 57,
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/10/04/19/college-student-7708894__340.jpg",
+      "paperType": "Amerikan Bristol Kapak"
+    },
+    {
+      "id": 77,
+      "categoryId": 2,
+      "authorId": 50,
+      "publisherId": 4,
+      "productName": "Asım",
+      "authorName": "Mehmet Akif Ersoy",
+      "publisherName": "Karbon Kitaplar",
+      "quantityPerUnit": "12 boxes",
+      "unitPrice": 13,
+      "unitsInStock": 32,
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/10/10/05/book-7709416__340.jpg",
+      "paperType": "İnce Kapak"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Roman",
+      "seoUrl": "roman"
+    },
+    {
+      "id": 2,
+      "categoryName": "Siir",
+      "seoUrl": "siir"
+    },
+    {
+      "id": 3,
+      "categoryName": "Tiyatro",
+      "seoUrl": "tiyatro"
+    },
+    {
+      "id": 4,
+      "categoryName": "Psikoloji",
+      "seoUrl": "psikoloji"
+    },
+    {
+      "id": 5,
+      "categoryName": "Öykü",
+      "seoUrl": "öykü"
+    },
+    {
+      "id": 6,
+      "categoryName": "Felsefe",
+      "seoUrl": "felsefe"
+    },
+    {
+      "id": 7,
+      "categoryName": "Tarih",
+      "seoUrl": "tarih"
+    },
+    {
+      "id": 8,
+      "categoryName": "Bilim-Mühendislik",
+      "seoUrl": "bilim-mühendislik"
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "authorName": "Özdemir Asaf",
+      "authorUrl": "özdemir-asaf",
+      "authorInfo": {
+        "authorLife": "Özdemir Asaf, Cumhuriyet dönemi Türk şairlerdendir. 11 Haziran 1923 tarihinde Ankara'da doğdu. Asıl adı Halit Özdemir Arun'dur. Babası Mehmet Asaf Şura-yı Devlet'in üyelerindendir.",
+        "authorDateOfBirth": "11 Haziran 1923,Ankara",
+        "authorDateOfDeath": "28 Ocak 1981, İstanbul"
+      },
+      "authorImage": ""
+    },
+    {
+      "id": 2,
+      "authorName": "José Mauro de Vasconcelos",
+      "authorUrl": "jose-mauro-de-vasconcelos",
+      "authorInfo": {
+        "authorLife": "Jose Mauro de Vasconcelos, Brezilyalı yazardır. Vasconcelos, 26 Şubat 1920 de Rio de Janeiro yakınlarındaki Bangu kasabasında doğdu. Yarı Kızılderili yarı Portekizli, yoksul bir ailede doğan Vasconcelos iki ayrı kültürün de izlerini taşıdı.",
+        "authorDateOfBirth": "26 Şubat 1920, Bangu, Rio de Janeiro,Brezilya",
+        "authorDateOfDeath": "24 Temmuz 1984, São Paulo, São Paulo, Brezilya"
+      },
+      "authorImage": ""
+    },
+    {
+      "id": 3,
+      "authorName": "Victor Hugo",
+      "authorUrl": "victor-hugo",
+      "authorInfo": {
+        "authorLife": "Victor Marie Hugo (Fransızca telaffuz: [viktɔʁ maʁi yɡo]; 26 Şubat 1802, Besançon - 22 Mayıs 1885, Paris) Romantik akıma bağlı Fransız şair, romancı ve oyun yazarı. En büyük ve ünlü Fransız yazarlardan biri kabul edilir.",
+        "authorDateOfBirth": "26 Şubat 1802, Besançon, Fransa",
+        "authorDateOfDeath": "22 Mayıs 1885, Paris, Fransa"
+      },
+      "authorImage": "https://media.istockphoto.com/id/161761928/photo/stamp-ussr-1952-victor-hugo-french-writer.jpg?b=1&s=170667a&w=0&k=20&c=2Yru4HGBszMb76xcXlFkDms0VesuQw1mnDzrFoUiCZA="
+    },
+    {
+      "id": 4,
+      "authorName": "William Shakespare",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "William Shakespeare, İngiliz şair, oyun yazarı ve oyuncu. Çoklukla İngilizce dilinin en büyük yazarı ve dünyanın en iyi dram oyun yazarı olarak anılır. İngiltere'nin ulusal şairi ve 'Avon'un Ozanı' olarak da bilinir.",
+        "authorDateOfBirth": "Stratford-upon-Avon, Birleşik Krallık",
+        "authorDateOfDeath": "23 Nisan 1616, Stratford-upon-Avon,Birleşik Krallık"
+      },
+      "authorImage": "https://cdn.pixabay.com/photo/2012/10/26/00/22/william-shakespeare-62936__340.jpg"
+    },
+    {
+      "id": 5,
+      "authorName": "Necip Fazıl Kısakürek",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Ahmet Necip Kısakürek (26 Mayıs 1904,İstanbul - 25 Mayıs 1983, İstanbul), Türk şair, romancı, oyun yazarı ve İslamcı ideolog. Necip Fazıl, 24 yaşındayken yayımladığı ikinci şiir kitabı Kaldırımlar ile tanınmış[8] ve Kaldırımlar Şairi lakabıyla anılmıştır. 1934 yılına kadar sadece şair olarak tanınmış ve o devirde Türk basınının merkezi olan Bâb-ı Âli'nin önde gelen isimleri arasında  yer almıştır. 1934 yılında Abdülhakîm Arvâsî ile tanıştıktan sonra büyük bir değişim yaşayan Kısakürek, 1943-1978 arasında 512 sayı yayımlanan Büyük Doğu dergisi yoluyla İslamcı görüşlerini kamuoyuna duyuran ve Büyük Doğu Hareketi'ne önderlik eden bir şairdir. Dergi, Türkiye'de Büyük Doğu Hareketi'nin ve antikomünizmin yayılmasında öncü bir rol oynamıştır. ",
+        "authorDateOfBirth": "26 Mayıs 1904, İstanbul",
+        "authorDateOfDeath": "25 Mayıs 1983, Erenköy, İstanbul"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Necip_Faz%C4%B1l_K%C4%B1sak%C3%BCrek_2014-05-04_10-06_%28cropped%29.jpg/225px-Necip_Faz%C4%B1l_K%C4%B1sak%C3%BCrek_2014-05-04_10-06_%28cropped%29.jpg"
+    },
+    {
+      "id": 6,
+      "authorName": "Alex Haley",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Alexander Murray Palmer Haley, Amerikalı bir yazar ve 1976 tarihli Roots: The Saga of an American Family kitabının yazarıydı. ABC, kitabı aynı adı taşıyan bir televizyon dizisi olarak uyarladı ve 1977'de 130 milyon izleyicinin rekor kıran bir izleyici kitlesine yayınladı.",
+        "authorDateOfBirth": "11 Ağustos 1921, Ithaca, New York, ABD",
+        "authorDateOfDeath": "10 Şubat 1992, Seattle, Washington, ABD"
+      },
+      "authorImage": "https://www.dr.com.tr/Themes/DR/Content/NewTheme/assets/dist/images/frontend/yazar-resmi-yok.png"
+    },
+    {
+      "id": 7,
+      "authorName": "Cahit Zarifoğlu",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "1 Temmuz 1940'ta dünyaya geldi.Çocukluğu Siverek, Maraş ve Ankara'da geçti. İstanbul Üniversitesi Edebiyat Fakültesi Alman Dili ve Edebiyatını bitirdi. Diriliş dergisinde şiirleri yayımlandı. Arvasilerden, Seyyid Kasım Arvasi'nin kızı Berat Hanım'la evlendi ve bu evlilikten üç kız, bir erkek evladı oldu. Nikâhında şahitliğini Necip Fazıl Kısakürek yapmıştır.[3] 1973 yılında Sarıkamış'ta vatani hizmetine başlamış, 1974 yılında Kıbrıs Barış Harekatı'na katılmış ve 1975 yılında askerliğini tamamlamıştır.[4] 1976 yılında Mavera dergisinin kuruluş çalışmalarında yer aldı. 7 Haziran 1987 tarihinde pankreas kanseri hastalığından İstanbul'da öldü. Kabri Üsküdar Beylerbeyi'ndeki Küplüce Mezarlığı'nda ve kayınpederi olan Kasım Arvasi ile yan yanadır. Her sene 7 Haziran'da sevenleri tarafından mezarı başında anılır.",
+        "authorDateOfBirth": "1 Temmuz 1940, Ankara",
+        "authorDateOfDeath": "7 Haziran 1987, İstanbul"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cahit_ZAR%C4%B0FO%C4%9ELU_2014-05-17_22-26.jpeg/220px-Cahit_ZAR%C4%B0FO%C4%9ELU_2014-05-17_22-26.jpeg"
+    },
+    {
+      "id": 8,
+      "authorName": "Farabi",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Fârâbî ya da Batı′da bilinen adıyla Alpharabius, 8. ve 13. yüzyıllar arasındaki İslam'ın Altın Çağı'nda yaşamış ünlü filozof ve bilim insanı. Aynı zamanda gök bilimci, mantıkçı ve müzisyendir.",
+        "authorDateOfBirth": "Fârâb (Kazakistan)",
+        "authorDateOfDeath": "14 Aralık 950 veya 12 Ocak 951 Şam, Suriye"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al-Farabi.jpg/200px-Al-Farabi.jpg"
+    },
+    {
+      "id": 9,
+      "authorName": "Engin Geçtan",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Engin Geçtan Türk psikiyatri profesörü, psikoterapist ve yazar. İlk, orta ve lise eğitimini İzmir’de tamamladı. 1956'da İstanbul Üniversitesi İstanbul Tıp Fakültesini bitirdikten sonra uzmanlık eğitimi için ABD'ye gidip New York ve Columbia üniversitelerinde öğrenim gördü.",
+        "authorDateOfBirth": "12 Ocak 1932 İzmir, Türkiye",
+        "authorDateOfDeath": "19 Şubat 2018"
+      },
+      "authorImage": "https://i.dr.com.tr/pimages/Content/Uploads/ArtistImages/artist__214645.jpg"
+    },
+    {
+      "id": 10,
+      "authorName": "Lisa Feldman Barrett",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Lisa Feldman Barrett Northeastern Üniversitesi’nde Psikoloji alanında kıdemli profesördür. Afektif bilim üzerine çalışmaktadır. Interdisciplinary Affective Science Laboratory’nin direktörlüğünü yapmaktadır. James Russell ile birlikte, Emotion Review dergisinin kurucu baş editörüdür",
+        "authorDateOfBirth": "1963, Toronto, Kanada",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://lisafeldmanbarrett.com/wp-content/uploads/sites/4/2020/06/lisa_circle_2020-150px.png"
+    },
+    {
+      "id": 11,
+      "authorName": "Bertrand Russell",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Bertrand Arthur William Russell, 3. Earl Russell, Britanyalı filozof, matematikçi, tarihçi ve toplum eleştirmeni. Hayatının çeşitli dönemlerinde kendisini liberal, sosyalist ve pasifist olarak tanıtmış, ayrıca hiçbirine derinden bağlı olmadığını itiraf etmiştir.",
+        "authorDateOfBirth": "18 Mayıs 1872, Trelleck, Birleşik Krallık",
+        "authorDateOfDeath": "2 Şubat 1970, Penrhyndeudraeth, Birleşik Krallık"
+      },
+      "authorImage": "https://i.idefix.com/pimages/Content/Uploads/ArtistImages/artist__173422.jpg"
+    },
+    {
+      "id": 12,
+      "authorName": "Platon",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Platon veya Eflatun (Yunanca: Πλάτων, Plátōn; MÖ 428/427 veya 424/423 – 348/347), Antik Yunan filozofu ve bilgesi. Dünyada üniversite düzeyindeki ilk kurumlardan biri olan (ve bu kurumlara günümüzdeki adını veren) Akademi'nin kurucusu olan ve düşünce tarihinde bir dönüm noktası teşkil eden Platon, felsefe ve bilim tarihindeki pek çok tartışmanın temellerini atmış, Hristiyanlık ve İslam gibi pek çok dini de derinden etkilemiştir. Hocası Sokrates ve öğrencisi Aristoteles ile birlikte felsefe tarihinin en etkili ismidir ve iddialarının büyük bir kısmı bugün hâlâ önemini korumakta, tartışılmakta ve çoğu düşünceye katkıda bulunmaktadır. İngiliz matematikçi ve filozof Alfred North Whitehead 'Avrupa felsefe geleneğiyle ilgili yapılabilecek en güvenilir genel nitelendirme Platon'a ait bir dizi dipnottan oluştuğudur' demiştir.",
+        "authorDateOfBirth": "Atina",
+        "authorDateOfDeath": "Atina"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/220px-Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+    },
+    {
+      "id": 13,
+      "authorName": "Charles Dickens",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Charles John Huffam Dickens, İngiliz yazar ve toplum eleştirmeni. En unutulmaz kurgusal karakterlerden bazılarını yaratmasının yanında Victoria devrinin en iyi romancısı olarak kabul edilir.",
+        "authorDateOfBirth": "7 Şubat 1812, Landport, Portsmouth, Birleşik Krallık",
+        "authorDateOfDeath": "9 Haziran 1870, Gads Hill Place, Birleşik Krallık"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/220px-Dickens_Gurney_head.jpg"
+    },
+    {
+      "id": 14,
+      "authorName": "Albert Einstein",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Albert Einstein, teorik fizikçi. Tüm zamanların en iyi fizikçilerinden kabul edilen Einstein, en çok görelilik teorisini geliştirmesiyle tanınır. Aynı zamanda kuantum mekaniğinin gelişimine önemli ölçüde katkılarda bulunmuştur.",
+        "authorDateOfBirth": "14 Mart 1879, Ulm, Almanya",
+        "authorDateOfDeath": " 18 Nisan 1955, Princeton, New Jersey, ABD"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/250px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+    },
+    {
+      "id": 15,
+      "authorName": "Anton Çehov",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Anton Pavloviç Çehov, Rus oyun ve kısa öykü yazarıdır. Tarihte kısa öykü alanında en iyi yazarlar arasında sayılmaktadır. Oyun yazarı olarak kariyerinde dört klasik eser üretmiş ve en iyi kısa öyküleri, yazarlar ve eleştirmenler tarafından olumlu eleştiriler almıştır.",
+        "authorDateOfBirth": "29 Ocak 1860, Taganrog, Rusya",
+        "authorDateOfDeath": "15 Temmuz 1904, Badenweiler, Almanya"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Anton_Chekhov_with_bow-tie_sepia_image.jpg/220px-Anton_Chekhov_with_bow-tie_sepia_image.jpg"
+    },
+    {
+      "id": 16,
+      "authorName": "Namık Kemal",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Namık Kemal, Türk milliyetçiliğine ilham kaynağı olmuş, Genç Osmanlı hareketi mensubu yazar, gazeteci, devlet adamı ve şairdir. Yurtseverlik, hürriyet, millet kavramlarına bağlı bir Tanzimat Devri aydınıdır. Bu kavramları Türk fikir hayatına ve edebiyatına sokan kişi kabul edilir.",
+        "authorDateOfBirth": "21 Aralık 1840, Tekirdağ",
+        "authorDateOfDeath": "2 Aralık 1888, Sakız, Yunanistan"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Kemalbey.jpg/220px-Kemalbey.jpg"
+    },
+    {
+      "id": 17,
+      "authorName": "İlber Ortaylı",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "İlber Ortaylı, Türk tarihçi, akademisyen ve yazar. Türk Tarih Kurumu Şeref Üyesidir. Ortaylı, Uluslararası Osmanlı Etütleri Komitesi yönetim kurulu üyesi ve Avrupa İranoloji Cemiyeti ve Avusturya-Türk Bilimler Forumu üyesidir.",
+        "authorDateOfBirth": "21 Mayıs 1947 (75 yıl yaşında), Bregenz, Avusturya",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ilber_Ortayli_retouched.jpg/220px-Ilber_Ortayli_retouched.jpg"
+    },
+    {
+      "id": 18,
+      "authorName": "Sait Faik Abasıyanık",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Sait Faik Abasıyanık, Türk hikâye ve roman yazarı, şair. Türk hikâyeciliğinin önde gelen yazarlarından birisi olan Sait Faik, çağdaş hikâyeciliğe yaptığı katkılar nedeniyle Türk edebiyatının köşe taşlarından biri olarak kabul edilir.",
+        "authorDateOfBirth": "Kasım 1906, Adapazarı",
+        "authorDateOfDeath": "11 Mayıs 1954, İstanbul"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/tr/thumb/3/36/Sait_Faik_Abas%C4%B1yan%C4%B1k.jpg/250px-Sait_Faik_Abas%C4%B1yan%C4%B1k.jpg"
+    },
+    {
+      "id": 19,
+      "authorName": "David Eagleman",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "David Eagleman Amerikalı bir Nörobilimci, yazar ve bilim iletişimcisidir. Stanford Üniversitesi'nde Nörobilim dersleri veriyor ve duyusal ikame için cihazlar geliştiren bir şirket olan Neosensory'nin CEO'su ve kurucu ortağıdır.",
+        "authorDateOfBirth": " 25 Nisan 1971 (51 yıl yaşında), Albuquerque, New Mexico, ABD",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/David_Eagleman_%28cropped%29.jpg/220px-David_Eagleman_%28cropped%29.jpg"
+    },
+    {
+      "id": 20,
+      "authorName": "Serkan Karaismailoğlu",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Lisans eğitimini 2005 yılında Hacettepe Üniversitesi Biyoloji bölümünde tamamlamıştır. Hacettepe Üniversitesi Tıp Fakültesi Fizyoloji Anabilim dalından yüksek lisans derecesini 2009 yılında, doktora derecesini ise 2014 yılında almış olup halen aynı yerde öğretim üyesi olarak çalışmaktadır. Sinirbilim alanında çalışmalarına devam etmekte olup çeşitli ulusal ve uluslararası dergilerde makaleleri bulunmaktadır. Ülkemizde sinirbilimin daha anlaşılır bir dille daha geniş kitlelere ulaşmasını amaçlayan “ortapia” projesinin kurucusudur.",
+        "authorDateOfBirth": "",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://i.dr.com.tr/pimages/Content/Uploads/ArtistImages/artist__60666.jpg"
+    },
+    {
+      "id": 21,
+      "authorName": "Muhammed Bozdağ",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Muhammed Bozdağ, öncelikle İslami ve Yeni Çağ kavramlarının bir karışımına dayanan kendi kendine yardım literatürü yayınlayan bir Türk yazardır.",
+        "authorDateOfBirth": "1 Ocak 1967 (56 yıl yaşında)",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/MuhammedBozdag.jpg/220px-MuhammedBozdag.jpg"
+    },
+    {
+      "id": 22,
+      "authorName": "Fyodor Dostoyevski",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Fyodor Mihayloviç Dostoyevski, Rus roman yazarıdır. Çocukluğunu sarhoş bir baba ve hasta bir anne arasında geçiren Dostoyevski, annesinin ölümünden sonra Petersburg'daki Mühendis Okulu'na girdi. Babasının ölüm haberini de burada aldı. Okulu başarıyla bitirdikten sonra istihkâm bölüğüne girdi.",
+        "authorDateOfBirth": "11 Kasım 1821, Moskova, Rusya",
+        "authorDateOfDeath": "9 Şubat 1881, Sankt Peterburg, Rusya"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg/220px-Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+    },
+    {
+      "id": 23,
+      "authorName": "Mustafa Kemal Atatürk",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Türk asker ve devlet adamıdır. Türk Kurtuluş Savaşı'nın başkomutanı ve Türkiye Cumhuriyeti'nin kurucusudur. I. Dünya Savaşı sırasında Osmanlı ordusunda görev yapan Atatürk, Çanakkale Cephesi'nde miralaylığa, Sina ve Filistin Cephesi'nde ise Yıldırım Orduları komutanlığına atandı.",
+        "authorDateOfBirth": "1881",
+        "authorDateOfDeath": "10 Kasım 1938, Dolmabahçe Sarayı, İstanbul"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ataturk1930s.jpg/220px-Ataturk1930s.jpg"
+    },
+    {
+      "id": 24,
+      "authorName": "Osho",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Chandra Mohan Jain, 1960'lardan itibaren Acharya Rajneesh, 1970'lerde ve 1980'lerde Bhagwan Shree Rajneesh ve 1989'dan sonra Osho olarak bilinen, Hindistanlı mistik guru ve spiritüel. ",
+        "authorDateOfBirth": "11 Aralık 1931, Kuchwada, Hindistan",
+        "authorDateOfDeath": "19 Ocak 1990, Pune, Hindistan"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bhagwan_beweging_gekwetst_door_reclame-affiche_van_het_NRC_met_de_tekst_profeet_%2C_Bestanddeelnr_933-0734-cropped.jpg/220px-Bhagwan_beweging_gekwetst_door_reclame-affiche_van_het_NRC_met_de_tekst_profeet_%2C_Bestanddeelnr_933-0734-cropped.jpg"
+    },
+    {
+      "id": 25,
+      "authorName": "Cengiz Aytmatov",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Cengiz Törökuloğlu Aytmatov, Kırgız edebiyatçı, gazeteci, çevirmen, diplomat ve siyasetçi. Türk dünyası’nın ünlü yazarlarındandır ve Türk kültür zenginliğini dünyaya tanıtmıştır.",
+        "authorDateOfBirth": "12 Aralık 1928, Şeker, Kırgızistan",
+        "authorDateOfDeath": "10 Haziran 2008, Nürnberg, Almanya"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Tschingis_Ajtmatow.jpg/220px-Tschingis_Ajtmatow.jpg"
+    },
+    {
+      "id": 26,
+      "authorName": "Lev Tolstoy",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Eserlerinde insanlığın çeşitli meselelerine değinen Tolstoy'un dünya ölçüsünde bir sanat ve fikir değeri vardır. Kendi ülkesinin toplumsal siyasal çalkantılarını, halkının yaratılışını, yaşayışını büyük bir ustalıkla yansıtmıştır. Gerçekçi edebiyatın en büyük temsilcilerinden olduğu kadar, bir filozof ve bir eğitimci olarak da ün kazanmıştır. 'Diriliş, Gençliğim, Çocukluk, Hacı Murat, Ayaklanış, Sergi Baba, Tanrı Bizim İçimizdedir, Kazaklar, Tesadüf, İki Süvari' gibi eserleri de vardır",
+        "authorDateOfBirth": "9 Eylül 1828, Yasnaya Polyana, Yasnaya Polyana, Rusya",
+        "authorDateOfDeath": "20 Kasım 1910, Lev Tolstoi, Rusya"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg/200px-L.N.Tolstoy_Prokudin-Gorsky.jpg"
+    },
+    {
+      "id": 27,
+      "authorName": "Şeyh Galip",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Galib Mehmed Esad Dede veya tanınan kısa adıyla Şeyh Galib, Türk divan edebiyatı şairi ve mutasavvıf.",
+        "authorDateOfBirth": "1757, İstanbul",
+        "authorDateOfDeath": "3 Ocak 1799, İstanbul"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Galata_Mevlevihanesi_%C5%9Eeyh_Galib_T%C3%BCrbesi.JPG/220px-Galata_Mevlevihanesi_%C5%9Eeyh_Galib_T%C3%BCrbesi.JPG"
+    },
+    {
+      "id": 28,
+      "authorName": "Özgür Polat",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Hürriyet Gazetesi'nde 12 yıl köşe yazarlığı yapmıştır ve şu anda mutluluğun, başarının ve liderliğin psikolojisi konularında şirketlerde ve okullarda konuşmalar ve çalıştaylar yapmaktadır. Geliştirmiş olduğu Yetenek Yönetimi Envanteri ile şirketlere danışmanlık sunmaktadır.",
+        "authorDateOfBirth": "1979 (44 yıl yaşında), Antalya",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://static.wixstatic.com/media/00bf9c_957f7ee2df044549be8de2881a672669~mv2.jpg/v1/crop/x_785,y_1641,w_4127,h_5719/fill/w_425,h_589,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSC_5102_JPG.jpg"
+    },
+    {
+      "id": 29,
+      "authorName": "Paulo Coelho",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Paulo Coelho, Brezilyalı roman ve söz yazarı. Paulo Coelho yazarlığa başlamadan önce ülkesinde tanınan bir şarkı sözü yazarıydı. Bir süre gazetecilik de yapan Paulo Coelho, 1986 yılında Hristiyanların Batı Avrupa'dan başlayıp İspanya'da Santiago de Compostela kentinde sona eren geleneksel hac yolculuğunu yaptı.",
+        "authorDateOfBirth": "24 Ağustos 1947 (75 yıl yaşında), Rio de Janeiro, Rio de Janeiro, Brezilya",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Coelhopaulo26012007-1.jpg/200px-Coelhopaulo26012007-1.jpg"
+    },
+    {
+      "id": 30,
+      "authorName": "Zülfü Livaneli",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Ömer Zülfü Livaneli, Türk müzisyen, senarist, politikacı, yazar ve film yönetmenidir.",
+        "authorDateOfBirth": "20 Haziran 1946 (76 yıl yaşında), Ilgın",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Z%C3%BClf%C3%BC_Livaneli_2018_%28cropped%29.jpg/220px-Z%C3%BClf%C3%BC_Livaneli_2018_%28cropped%29.jpg"
+    },
+    {
+      "id": 31,
+      "authorName": "Amin Maalouf",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Amin Maalouf ya da Emin Maluf, kitaplarını Fransızca yazan Lübnanlı yazardır. 1976'dan beri Fransa'da yaşamaktadır. Yazar, 1993 yılında Goncourt Akademisi Edebiyat Ödülü'ne layık görülmüştür. Kitapları 40'tan fazla dile çevrilmiş ve eserleri, Fransa'da ve çevrildiği birçok dilde geniş okur kitlesine ulaşmıştır.",
+        "authorDateOfBirth": "25 Şubat 1949 (73 yıl yaşında), Beyrut, Lübnan",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Amin_Maalouf_par_Claude_Truong-Ngoc_novembre_2013.jpg/220px-Amin_Maalouf_par_Claude_Truong-Ngoc_novembre_2013.jpg"
+    },
+    {
+      "id": 32,
+      "authorName": "Stephen Hawking",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Stephen William Hawking, İngiliz fizikçi, kozmolog, astronom, teorisyen ve yazar. Stephen Hawking, Einstein'dan bu yana dünyaya gelen en parlak teorik fizikçi olarak kabul edilmektedir. 12 onur derecesi almıştır. 1982'de CBE ile ödüllendirilmiş, bundan başka birçok madalya ve ödül almıştır. ",
+        "authorDateOfBirth": "8 Ocak 1942, Oxford, Birleşik Krallık",
+        "authorDateOfDeath": "14 Mart 2018, Cambridge, Birleşik Krallık"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Stephen_Hawking.StarChild.jpg/220px-Stephen_Hawking.StarChild.jpg"
+    },
+    {
+      "id": 33,
+      "authorName": "Moliere",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Jean-Baptiste Poquelin daha bilinen adıyla Molière, Fransız oyun yazarı ve oyuncu.",
+        "authorDateOfBirth": "15 Ocak 1622,Rue Saint-Honoré, Paris, Fransa",
+        "authorDateOfDeath": "17 Şubat 1673, Rue de Richelieu, Paris, Fransa"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Moli%C3%A8re_%281622-1673%29_-_Google_Art_Project_%28cropped%29.jpg/220px-Pierre_Mignard_-_Portrait_de_Jean-Baptiste_Poquelin_dit_Moli%C3%A8re_%281622-1673%29_-_Google_Art_Project_%28cropped%29.jpg"
+    },
+    {
+      "id": 34,
+      "authorName": "Ömer Seyfettin",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Ömer Seyfettin, Türk yazar, şair, asker ve öğretmen. Türk edebiyatının önde gelen hikâye yazarlarındandır. Türk kısa hikâyeciliğinin kurucu ismi, ayrıca edebiyatta Türkçülük akımının kurucularından olup Türkçede sadeleşmenin savunucuları arasındadır. ",
+        "authorDateOfBirth": "11 Mart 1884, Gönen",
+        "authorDateOfDeath": "6 Mart 1920, İstanbul Vilayeti"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/%C3%96mer_Seyfettin_Renklendirilmi%C5%9F.jpg/220px-%C3%96mer_Seyfettin_Renklendirilmi%C5%9F.jpg"
+    },
+    {
+      "id": 35,
+      "authorName": "Benjamin Graham",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "İngilizceden çevrilmiştir-Benjamin Graham, İngiltere doğumlu Amerikalı bir ekonomist, profesör ve yatırımcıydı. Yaygın olarak 'değerli yatırımın babası' olarak bilinir ve neoklasik yatırımın kurucu metinlerinden ikisini yazdı: David Dodd ile Güvenlik Analizi ve Akıllı Yatırımcı.",
+        "authorDateOfBirth": "9 Mayıs 1894, Londra, Birleşik Krallık",
+        "authorDateOfDeath": "21 Eylül 1976, Aix-en-Provence, Fransa"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Benjamin_Graham_%281894-1976%29_portrait_on_23_March_1950.jpg/220px-Benjamin_Graham_%281894-1976%29_portrait_on_23_March_1950.jpg"
+    },
+    {
+      "id": 36,
+      "authorName": "Don Tapscott",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Don Tapscott iş stratejileri ve organizasyonel değişimler konusunda uzman Kanadalı konuşmacı, yazar ve danışman.",
+        "authorDateOfBirth": "1 Haziran 1947 (75 yıl yaşında), Toronto, Kanada",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Don_Tapscott_BW.jpg"
+    },
+    {
+      "id": 37,
+      "authorName": "Sun Tzu",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Savaş stratejisi üzerine yazdığı Savaş Sanatı (Çince:兵法, Pinyin: Bīng Fǎ) adlı yazılarda toplanan öğretileri dünyanın en eski strateji kuramları olarak kabul görür. 13 bölümde toplanan yazıların, Çin’de çok daha eski dönemlerden beri bilinen savaşma ilkelerinin toplu bir sunumu olduğu ve Üstad Sunzi yorumuyla bir araya getirilmesinin Çin'in Savaşan Beylikler döneminde (MÖ 480 - MÖ 221) gerçekleştiği sanılıyor.",
+        "authorDateOfBirth": "MÖ 544",
+        "authorDateOfDeath": "MÖ 496"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Enchoen27n3200.jpg/200px-Enchoen27n3200.jpg"
+    },
+    {
+      "id": 39,
+      "authorName": "Yahya Kemal Beyatlı",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Yahya Kemal Beyatlı, Türk şair, mütefekkir, yazar, siyasetçi ve diplomattır. Cumhuriyet dönemi Türk şiirinin en büyük temsilcilerinden biridir. Şiirleri Divan edebiyatı ile modern şiir arasında köprülük görevi üstlenmiştir. Türk edebiyat tarihi içinde Dört Aruzcu'dan biri olarak kabul edilir.",
+        "authorDateOfBirth": "2 Aralık 1884, Üsküp, Kuzey Makedonya",
+        "authorDateOfDeath": "1 Kasım 1958, Cerrahpaşa Tıp Fakültesi Hastanesi, İstanbul"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Yahya_Kemal_Bey.jpg"
+    },
+    {
+      "id": 40,
+      "authorName": "Thomas More",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Thomas More, İngiliz devlet adamı, hukukçu, filozof, Rönesans dönemi hümanist yazardır. 1516'da yazdığı 'Ütopya 'başlıklı eserinde, hayalî bir adada kurguladığı bir ülkenin siyasi sistemini, ideal olarak tarif eder. More'un Kral VIII.",
+        "authorDateOfBirth": "7 Şubat 1478, Milk Street, Londra, Birleşik Krallık",
+        "authorDateOfDeath": "6 Temmuz 1535, Tower Hill, Londra, Birleşik Krallık"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg/200px-Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg"
+    },
+    {
+      "id": 41,
+      "authorName": "Carmine Gallo",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Carmine Gallo Amerikalı yazar, köşe yazarı, açılış konuşmacısı ve eski gazeteci ve haber spikeridir. California, Pleasanton'da yerleşik, Gallo Communications Group'un Başkanıdır ve iletişim koçu ve konuşmacı olarak çalışmaktadır. Carmine ayrıca Liderlik Kanalı için yazdığı Forbes.com'a da katkıda bulunuyor.",
+        "authorDateOfBirth": "26 Temmuz 1965 (57 yıl yaşında), San Jose, Kaliforniya, ABD",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Carmine_Gallo2.jpg/220px-Carmine_Gallo2.jpg"
+    },
+    {
+      "id": 42,
+      "authorName": "Gavin Francis",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Gavin Francis, İskoç bir doktor ve seyahat ve tıbbi konularda yazar. İskoçya'nın Fife kentinde büyüdü ve şimdi Edinburgh'da GP olarak yaşıyor. Kitapları birçok prestijli ödül kazandı",
+        "authorDateOfBirth": "1975 (48 yıl yaşında), Fife, Birleşik Krallık",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://www.dr.com.tr/Themes/DR/Content/NewTheme/assets/dist/images/frontend/yazar-resmi-yok.png"
+    },
+    {
+      "id": 43,
+      "authorName": "Adolf Hitler",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Adolf Hitler, Avusturya doğumlu Alman politikacı, demagog ve Nasyonal Sosyalist Alman İşçi Partisi lideridir. 20. yüzyılın en güçlü ve kötü şöhretli diktatörlerinden biri olarak kabul edilir. ",
+        "authorDateOfBirth": "20 Nisan 1889, Braunau am Inn, Avusturya",
+        "authorDateOfDeath": "30 Nisan 1945, Führerbunker"
+      },
+      "authorImage": "https://i.dr.com.tr/pimages/Content/Uploads/ArtistImages/artist__241110.jpg"
+    },
+    {
+      "id": 44,
+      "authorName": "Nazan Bekiroğlu",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Nazan Bekiroğlu, Türk yazar ve akademisyen. 1997 yılından beri hikâye, deneme, roman ve incelemelerini yayımlamaktadır. 2006 yılında Cam Irmağı, Taş Gemi adlı hikâyesiyle Türk Yazarlar Birliği hikâye ödülü'nü almıştır.",
+        "authorDateOfBirth": "5 Mart 1957 (65 yıl yaşında), Trabzon",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://i.dr.com.tr/pimages/Content/Uploads/ArtistImages/artist__217491.jpg"
+    },
+    {
+      "id": 45,
+      "authorName": "İskender Pala",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "İskender Pala, Türk profesör, yazar ve divan edebiyatı araştırmacısı, T.C. Cumhurbaşkanlığı Kültür ve Sanat Politikaları Kurulu Başkanı.",
+        "authorDateOfBirth": "8 Haziran 1958 (64 yıl yaşında), Uşak",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/%C4%B0skender_Pala_IMG_1995.jpg/220px-%C4%B0skender_Pala_IMG_1995.jpg"
+    },
+    {
+      "id": 47,
+      "authorName": "Nevzat Tarhan",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Kaşif Nevzat Tarhan, Türk hekim, psikiyatrist ve nöropsikolog. Üsküdar Üniversitesi'nin kurucu rektörü. 1998 yılında Memory Centers of America'nın Türkiye temsilciliğini aldı. Türkiye'de ilk nöropsikiyatri hastanesi olan NPİSTANBUL Beyin Hastanesi'nin yönetim kurulu başkanlığını yürütmektedir. ",
+        "authorDateOfBirth": "7 Temmuz 1952 (70 yıl yaşında), Merzifon",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Nevzat_Tarhan%2C_MD.jpg/220px-Nevzat_Tarhan%2C_MD.jpg"
+    },
+    {
+      "id": 48,
+      "authorName": "Jack London",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "John Griffith London, Amerikalı gazeteci ve roman yazarı. Vahşetin Çağrısı, Martin Eden, Demir Ökçe, Beyaz Diş ve Deniz Kurdu başta olmak üzere elliden fazla kitabın yazarı olan Jack London, Dünya ticari dergi romanının öncüsü ve yazarlıktan yüksek gelir elde edebilen Amerikalıların ilklerindendir. ",
+        "authorDateOfBirth": "12 Ocak 1876, San Francisco, Kaliforniya, ABD",
+        "authorDateOfDeath": "22 Kasım 1916, Glen Ellen, Kaliforniya, ABD"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Jack_London_young.jpg/220px-Jack_London_young.jpg"
+    },
+    {
+      "id": 49,
+      "authorName": "Nazım Hikmet",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Halk arasında Nâzım Hikmet olarak bilinen Mehmed Nâzım Ran, Türk-Polonyalı şair, oyun yazarı, romancı, senarist, yönetmen ve anı yazarıydı. İfadelerinin lirik akışı ile beğeni topladı.",
+        "authorDateOfBirth": "15 Ocak 1902, Selanik, Yunanistan",
+        "authorDateOfDeath": "3 Haziran 1963, Moskova, Rusya"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/NazimHikmetRan.jpg/220px-NazimHikmetRan.jpg"
+    },
+    {
+      "id": 50,
+      "authorName": "Mehmet Akif Ersoy",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Mehmed Ragîf, daha sonra Mehmet Âkif Ersoy, Türk şair, veteriner hekim, öğretmen ve siyasetçi. Mehmet Âkif Ersoy, Türkiye Cumhuriyeti ve Kuzey Kıbrıs Türk Cumhuriyeti'nin ulusal marşı olan İstiklâl Marşı'nın yazarıdır. 'Vatan Şairi' ve 'Millî Şair 'unvanları ile anılır.",
+        "authorDateOfBirth": "20 Aralık 1873, Fatih",
+        "authorDateOfDeath": "27 Aralık 1936, İstanbul"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mehmet_%C3%82kif_Ersoy.png/250px-Mehmet_%C3%82kif_Ersoy.png"
+    },
+    {
+      "id": 51,
+      "authorName": "Hakan Türkçapar",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Mehmet Hakan Türkçapar, 1990 yılında Hacettepe Üniversitesi Tıp Fakültesini, 1995 yılında psikiyatri ihtisasını bitirdi. Uzmanlık sonrası 1997’de Bilişsel Davranışçı Psikoterapiler alanında ABD’de Beck Institute for Cognitive Therapy and Research’de Bilişsel Psikoterapi eğitimi aldı. 1999 yılında New York Ellis Institute’de Rational Emotive Behaviour Therapy eğitimi sonrası REBT (Akılcı Duygusal Terapi) alanında önce Temel Sertifika (Primary Certificate), ardından da 2008 yılında da ileri düzey sertifika (Advanced Certificate) aşamalarını tamamladı.",
+        "authorDateOfBirth": "1966 (57 yıl yaşında), Kahramanmaraş",
+        "authorDateOfDeath": ""
+      },
+      "authorImage": "https://www.dr.com.tr/Themes/DR/Content/NewTheme/assets/dist/images/frontend/yazar-resmi-yok.png"
+    },
+    {
+      "id": 52,
+      "authorName": "Ömer Hayyam",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Gıyaseddin Ebu'l-Feth Ömer ibni İbrahim Nişaburi, yaygın olarak bilinen ismiyle Ömer Hayyam, Pers polimat, matematikçi, astronom, tarihçi, filozof ve şairdi. Selçuklu İmparatorluğu'nun ilk başkenti olan Nişabur'da doğdu. Bir bilgin olarak, Birinci Haçlı Seferi sırasında Selçuklu hanedanının yönetimiyle çağdaştı.",
+        "authorDateOfBirth": "18 Mayıs 1048, Nişabur, İran",
+        "authorDateOfDeath": "4 Aralık 1131, Nişabur, İran"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Omar_Khayyam2.JPG/220px-Omar_Khayyam2.JPG"
+    },
+    {
+      "id": 53,
+      "authorName": "Carl Sagan",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Carl Edward Sagan, Amerikalı gökbilimci ve astrobiyolog. Astrobiyolojinin öncülerinden olan Sagan, bilimin popülerleşmesi için yaptığı çalışmalarla tanınır. Popüler bilim kitaplarıyla ve yazımında yer alıp sunduğu ödüllü televizyon dizisi Cosmos ile dünya çapında tanınmıştır.",
+        "authorDateOfBirth": "9 Kasım 1934, Brooklyn, New York, ABD",
+        "authorDateOfDeath": "20 Aralık 1996, Fred Hutchinson Cancer Center, Seattle, Washington, ABD"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Astronomer_Carl_Sagan_in_1987%2C_crop.jpg/220px-Astronomer_Carl_Sagan_in_1987%2C_crop.jpg"
+    },
+    {
+      "id": 54,
+      "authorName": "Sabahattin Ali",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Sabahattin Ali, Türk yazar ve şair. Edebî kişiliğini toplumcu gerçekçi bir düzleme oturtarak yaşamındaki deneyimlerini okuyucusuna yansıttı ve kendisinden sonraki Cumhuriyet dönemi Türk edebiyatını etkileyen bir figür hâline geldi.",
+        "authorDateOfBirth": "25 Şubat 1907, Eğridere, Bulgaristan",
+        "authorDateOfDeath": "2 Nisan 1948, Kırklareli"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/tr/thumb/f/f6/Sabahattin_ali.jpg/260px-Sabahattin_ali.jpg"
+    },
+    {
+      "id": 55,
+      "authorName": "Ahmet Muhip Dıranas",
+      "authorUrl": "",
+      "authorInfo": {
+        "authorLife": "Ahmet Muhip Dıranas, Türk şair ve yazardır.",
+        "authorDateOfBirth": "1909, Sinop",
+        "authorDateOfDeath": "21 Haziran 1980, Ankara"
+      },
+      "authorImage": "https://upload.wikimedia.org/wikipedia/tr/thumb/d/d0/Ahmet-muhip-diranas.JPG/220px-Ahmet-muhip-diranas.JPG"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "publisherName": "Yapı Kredi Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "Yapı Kredi Yayınları, Yapı Kredi Bankası'nın 1944 yılında başladığı, özellikle 1949 yılında çıkan Doğan Kardeş dergisiyle tanındığı yayıncılığı, 1992 yılında, Turhan Ilgaz'ın yönetiminde kurulan bir şirketle sürdüren yayıncılık kuruluşudur. Tam adı Yapı Kredi Kültür Sanat Yayıncılık A.Ş., kısaltması YKY'dir.",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2013/08/19/Resim_1376943678.jpg",
+      "publisherPhone": "0 (212) 360 0063",
+      "publisherEmail": "iletisim@ykykultur.com.tr",
+      "publisherWebsite": "https://www.yapikrediyayinlari.com.tr"
+    },
+    {
+      "id": 2,
+      "publisherName": "Can Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "Erdal Öz tarafından 1981'de kurulan yayınevi. Kuruluşundan bu yana çocuk ve kültür&edebiyat kitapları yayımlamaktadır. Türk Edebiyatı, Çağdaş Dünya Edebiyatı, Klasikler, Modern Klasikler dizileri dışında çocuk kitapları, şiir, öykü, roman, biyografi ve denemeler yayınevinin yayınclık alanıdır. ",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2017/06/07/Resim_1496833196.jpg",
+      "publisherPhone": "0 212 252 59 88",
+      "publisherEmail": "yayinevi@canyayinlari.com",
+      "publisherWebsite": "https://www.canyayinlari.com"
+    },
+    {
+      "id": 3,
+      "publisherName": "Remzi Kitapevi",
+      "publisherUrl": "",
+      "publisherInfo": "Remzi Kitabevi, 1927 yılında Remzi Bengi tarafından İstanbul'un Beyazıt ilçesinde kurulan bir yayınevi. Beyazıt'ta bir dükkânda faaliyet göstermeye başladı. İlk olarak Ümit Kitabevi adıyla kurulup 1930 yılında Remzi Kitabevi adını aldı. Yayınevi olarak ilk kitabı Ömer Seyfettin'in 'Yüksek Ökçeler' adlı eseridir.",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2022/12/01/1669896928.png",
+      "publisherPhone": "(0212) 282 20 80",
+      "publisherEmail": "post@remzi.com.tr",
+      "publisherWebsite": "https://www.remzi.com.tr"
+    },
+    {
+      "id": 4,
+      "publisherName": "Karbon Kitaplar",
+      "publisherUrl": "",
+      "publisherInfo": "Karbon Kitaplar, 1985’ten bu yana; web tasarım, logo, animasyon, renk ayrımı, kapak tasarımları, matbaa hazırlık çalışmaları gibi basın yayın sektöründe grafik ve baskı öncesi hazırlık sürecinde faaliyet gösteren Repar Tasarım Matbaa ve Reklamcılık Tic. Ltd. Şti. tarafından kuruldu.",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2016/05/20/Resim_1463730631.jpg",
+      "publisherPhone": "(0212) 522 48 45",
+      "publisherEmail": "iletisim@karbonkitaplar.com",
+      "publisherWebsite": "https://karbonkitaplar.com"
+    },
+    {
+      "id": 5,
+      "publisherName": "Türkiye İş Bankası Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "Türkiye İş Bankası Kültür Yayınları, 1956 yılında Hasan Âli Yücel tarafından kuruldu.",
+      "publisherImage": "",
+      "publisherPhone": "+90 212 243 5600",
+      "publisherEmail": "bilgi@iskultur.com.tr",
+      "publisherWebsite": "https://www.iskultur.com.tr/"
+    },
+    {
+      "id": 6,
+      "publisherName": "İnkılap Kitabevi",
+      "publisherUrl": "",
+      "publisherInfo": "1927 yılında Garbis Fikri tarafından kuruldu. 1961`de Aka Kitabevi ile birleşerek İnkılâp-Aka Kitabevleri adını aldı. Garbis Fikri`nin 1971`de ölümü üzerine yayınevinin yönetimine, oğlu Nazar Fikri geçti. ",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2013/10/14/Resim_1381745492.jpg",
+      "publisherPhone": "0212 496 11 12",
+      "publisherEmail": "siparis@inkilap.com",
+      "publisherWebsite": "https://www.inkilap.com"
+    },
+    {
+      "id": 7,
+      "publisherName": "Timaş Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "Timaş Yayınları, 1982 yılında İstanbul'da Hekimoğlu İsmail ve Ahmed Günbay Yıldız tarafından kurulmuştur. Şimdiye kadar 4000'den fazla kitap yayını yapan Timaş'ın Yönetim Kurulu Başkanlığını Osman Okçu yürütmektedir. 1997 yılında Yazarlar birliği tarafından yılın yayıncısı ödülünü almıştır.",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2013/08/19/Resim_1376944427.jpg",
+      "publisherPhone": "0212 511 24 24",
+      "publisherEmail": "timas@timas.com.tr",
+      "publisherWebsite": "https://timas.com.tr"
+    },
+    {
+      "id": 8,
+      "publisherName": "Doğan Kitap",
+      "publisherUrl": "",
+      "publisherInfo": "Doğan Kitap, 1999 yılında faaliyet göstermeye başlayan yayıncılık şirketi. Aralık 2007'de gerçekleşen satın alma ile Doğan Medya Grubu'nun ilk yabancı ortaklı şirketi olan Doğan Egmont bünyesine katılmıştır ve Doğan Novus, CEOplus, Dex ve Doğan Egmont markalarıyla aynı çatı altında faaliyetlerini sürdürmektedir.",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2017/01/11/Resim_1484146370.jpg",
+      "publisherPhone": "(0212) 373 77 00",
+      "publisherEmail": "iletisim@dogankitap.com.tr",
+      "publisherWebsite": "https://www.dogankitap.com.tr"
+    },
+    {
+      "id": 9,
+      "publisherName": "Kapı Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "2004 yılında kurulan Kapı Yayınları, Şark medeniyetinin ışığını, rengini, doğru bir şekilde sunmak, modern insanı gelenekle buluşturmak, Doğu ve Batı kültürlerini birbirine anlatabilmek için yola çıktı. ",
+      "publisherLogo": "https://www.alfayayinlari.com/upload/24301159_1762848753766292_1321726556725909800_n.jpg",
+      "publisherPhone": "0 212 513 34 20",
+      "publisherEmail": "bilgi@kapiyayinlari.com",
+      "publisherWebsite": "https://www.kapiyayinlari.com"
+    },
+    {
+      "id": 10,
+      "publisherName": "Nesil Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "1968 yılında kurulmuştur.",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/foto/1/1509957461.jpg",
+      "publisherPhone": "+90 212 551 32 25",
+      "publisherEmail": "bilgi@nesilyayinlari.com",
+      "publisherWebsite": "https://www.nesilyayinlari.com"
+    },
+    {
+      "id": 11,
+      "publisherName": "Everest Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "Everest Yayınları, 1990 yılında kurulan Alfa Basım Yayın’ın bünyesinde 2000 yılında yayın hayatına başladı.",
+      "publisherLogo": "https://cdn.kitapsec.com/image/genel/2020/03/24/11585044602.jpg",
+      "publisherPhone": "0212 513 34 20 - 21",
+      "publisherEmail": "info@everestyayinlari.com",
+      "publisherWebsite": "https://www.everestyayinlari.com"
+    },
+    {
+      "id": 12,
+      "publisherName": "Alfa Yayınları",
+      "publisherUrl": "",
+      "publisherInfo": "Borges’in “Okuduklarımızı değil, okuduklarımızdan kalanları hatırlarız,” sözünden yola çıkarak başlangıçta özellikle üniversite ve yüksekokullar için her türden referans kitaplarına yönelik sürdürdüğümüz çalışmaların kapsamını zaman içerisinde genişleterek yayıncılık sektöründeki öncü isimlerden birisi haline geldik.",
+      "publisherLogo": "https://www.alfayayinlari.com/upload/alfa_logo_44534.jpg",
+      "publisherPhone": "0212 511 53 03",
+      "publisherEmail": "alfa@alfakitap.com",
+      "publisherWebsite": "https://www.alfakitap.com/"
+    }
+  ]
+}
